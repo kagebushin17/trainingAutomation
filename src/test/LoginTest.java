@@ -1,7 +1,9 @@
 package test;
 
+import base.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -16,21 +18,24 @@ public class LoginTest {
     public WebDriver driver;
     String username = "kagebushin17";
     String password = "Ganbarimasu17*";
+    BasePage basePage;
 
     @BeforeTest
     public void launchBrowser() {
         System.out.println("lauching browser");
         System.setProperty("webdriver.chrome.driver", driverPath);
         driver = new ChromeDriver();
-        driver.get(baseUrl);
+        basePage = new BasePage(driver);
+        basePage.setUrlToDriver(baseUrl);
     }
 
     @Test
     public void verifyLoginPage() {
-        String errorMessage = "Page not loaded";
-        driver.findElement(By.id("ctl00_LoginView_LoginLink")).click();
-        boolean isLoginPageDisplayed = driver.findElement(By.xpath("//h2[contains(text(), 'Login')]")).isDisplayed();
-        Assert.assertTrue(isLoginPageDisplayed, errorMessage);
+        String errorMessage = "Page didn't load";
+        WebElement loginButton = driver.findElement(By.id("ctl00_LoginView_LoginLink"));
+        basePage.clickOnElement(loginButton);
+        WebElement loginHeading = driver.findElement(By.xpath("//h2[contains(text(), 'Login')]"));
+        Assert.assertTrue(basePage.waitForElementVisible(loginHeading), errorMessage);
     }
 
     @Test

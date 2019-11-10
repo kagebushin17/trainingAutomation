@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7511b6f-6a9c-488e-a41c-a893612ded2c" name="Default Changelist" comment="" />
+    <list default="true" id="a7511b6f-6a9c-488e-a41c-a893612ded2c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationAvantica2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationAvantica2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AutomationAvantica2/test/RegisterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AutomationAvantica2/test/RegisterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/RegisterTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,12 +30,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TFk9dynlQdZ9Bn3HNQDigibe5O" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../AutomationTraining/src/tests/RegisterTests.java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -47,25 +59,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.RegisterTest">
-    <configuration name="LoginTest (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.LoginTest.verifyLoginPage">
+    <configuration name="D:/trainingAutomation/src/Config.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationAvantica2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.LoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/Config.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.verifyLoginPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationAvantica2" />
       <extension name="coverage">
         <pattern>
@@ -75,42 +80,42 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.LoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationAvantica2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.LoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.verifyLoginWithBadCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationAvantica2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.LoginTest" />
-      <option name="METHOD_NAME" value="verifyLoginWithBadCredentials" />
+      <option name="METHOD_NAME" value="verifyLoginPage" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationAvantica2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.RegisterTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationAvantica2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.RegisterTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -136,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest.verifyLoginPage" />
+        <item itemvalue="TestNG.D:/trainingAutomation/src/Config.xml" />
         <item itemvalue="TestNG.RegisterTest" />
-        <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.LoginTest (4)" />
-        <item itemvalue="TestNG.LoginTest.verifyLoginWithBadCredentials" />
-        <item itemvalue="TestNG.LoginTest (3)" />
+        <item itemvalue="TestNG.RegisterTest (2)" />
+        <item itemvalue="TestNG.RegisterTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -156,5 +161,18 @@
       <updated>1573063080941</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

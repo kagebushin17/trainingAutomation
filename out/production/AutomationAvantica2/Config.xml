@@ -1,0 +1,12 @@
+<suite name="AutomationAvantica">
+    <test name="RegisterTest">
+        <classes>
+            <class name="test.RegisterTest" />
+        </classes>
+    </test>
+    <test name="LoginTest">
+        <classes>
+            <class name="test.LoginTest" />
+        </classes>
+    </test>
+</suite>
