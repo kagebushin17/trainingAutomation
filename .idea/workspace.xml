@@ -2,11 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7511b6f-6a9c-488e-a41c-a893612ded2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entities/UserRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/driver/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/driver/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/NavigationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/RegisterPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/DriverHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/IDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/LocalDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationAvantica2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationAvantica2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AutomationAvantica2/Config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AutomationAvantica2/Config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AutomationAvantica2/base/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AutomationAvantica2/base/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AutomationAvantica2/test/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AutomationAvantica2/test/LoginTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AutomationAvantica2/test/RegisterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AutomationAvantica2/test/RegisterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/base/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/RegisterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/RegisterTest.java" afterDir="false" />
     </list>
@@ -35,14 +48,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AutomationTraining/src/tests/RegisterTests.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/driver" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\trainingAutomation\src\driver" />
       <recent name="C:\Users\wcarvajal-as\IdeaProjects\AutomationAvantica2\test\drivers" />
       <recent name="C:\Users\wcarvajal-as\IdeaProjects\AutomationAvantica2\drivers" />
     </key>
@@ -59,7 +73,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.verifyLoginPage">
+  <component name="RunManager" selected="TestNG.D:/trainingAutomation/src/Config.xml">
     <configuration name="D:/trainingAutomation/src/Config.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationAvantica2" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/Config.xml" />
@@ -141,8 +155,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest.verifyLoginPage" />
         <item itemvalue="TestNG.D:/trainingAutomation/src/Config.xml" />
+        <item itemvalue="TestNG.LoginTest.verifyLoginPage" />
         <item itemvalue="TestNG.RegisterTest" />
         <item itemvalue="TestNG.RegisterTest (2)" />
         <item itemvalue="TestNG.RegisterTest (1)" />

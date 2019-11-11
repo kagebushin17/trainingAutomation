@@ -1,12 +1,14 @@
-<suite name="AutomationAvantica">
-    <test name="RegisterTest">
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AutomationTraining">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="startURL" value="http://192.168.0.103:86/"/>
+    <parameter name="driverType" value="localdriver"/>
+
+    <test name="AutomationTrainingXml">
         <classes>
-            <class name="test.RegisterTest" />
+<!--            <class name="test.LoginTest"/>-->
+            <class name="test.RegisterTest"/>
         </classes>
     </test>
-    <test name="LoginTest">
-        <classes>
-            <class name="test.LoginTest" />
-        </classes>
-    </test>
-        </suite>
+</suite>
